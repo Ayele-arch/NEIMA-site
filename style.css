@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  background: url(HAFISA\ 2.jpg);
+  height: fit-content;
+  background-size: cover;
+  text-align: center;
+  padding: 10%;
+  background-repeat: no-repeat;
+  width: auto;
+}
+.navbar {
+  height: 80px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.navbar ul {
+  float: center;
+  margin-top: 20px;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 7px 50px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 6px 13px;
+  font-family: "Roboto", sans-serif;
+  transition: 0.4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  background: red;
+  border-radius: 2px;
+}
+.wrapper .center {
+  position: absolue;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+}
+body {
+  font-family: "avenir next", calibri, verdana, sans-serif;
+  color: BLACK;
+  padding: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgb(71, 128, 143);
+}
+.order {
+  text-align: center;
+}
+p {
+  font-size: 1.6sem; /*14px/16=0.875em */
+  text-align: justify;
+}
+h2 {
+  font-size: 150%;
+}
+h3 {
+  font-weight: bold;
+  color: black;
+  font-size: 32px;
+}
+h4 {
+  font-weight: bold;
+  color: black;
+  font-size: 32px;
+}
+h5 {
+  font-weight: bold;
+  color: black;
+  font-size: 32px;
+}
